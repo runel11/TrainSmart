@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	nav.navbar.navbar-inverse
+	.container
+		a(href='https://www.strava.com/oauth/authorize?client_id=19365&response_type=code&redirect_uri=http://localhost:3000/dashboard&scope=view_private,write&approval_prompt=auto')
+			img(src='/public/media/orangeStravaButton.png')
+
+
